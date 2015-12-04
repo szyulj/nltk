@@ -108,6 +108,8 @@ floresta = LazyCorpusLoader(
     tagset='unknown', encoding='ISO-8859-15')
 framenet = LazyCorpusLoader(
     'framenet_v15', FramenetCorpusReader, ['frRelation.xml','frameIndex.xml','fulltextIndex.xml','luIndex.xml','semTypes.xml'])
+hypergraph = LazyCorpusLoader(
+    'hypergraph', HypergraphCorpusReader, ['frRelation.xml','frameIndex.xml','fulltextIndex.xml','luIndex.xml','semTypes.xml'])
 gazetteers = LazyCorpusLoader(
     'gazetteers', WordListCorpusReader, r'(?!LICENSE|\.).*\.txt',
     encoding='ISO-8859-2')

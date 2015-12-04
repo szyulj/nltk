@@ -90,6 +90,7 @@ from nltk.corpus.reader.aligned import *
 from nltk.corpus.reader.lin import *
 from nltk.corpus.reader.semcor import *
 from nltk.corpus.reader.framenet import *
+from nltk.corpus.reader.hypergraph import *
 from nltk.corpus.reader.udhr import *
 from nltk.corpus.reader.bnc import *
 from nltk.corpus.reader.sentiwordnet import *
@@ -135,7 +136,7 @@ __all__ = [
     'TEICorpusView', 'KNBCorpusReader', 'ChasenCorpusReader',
     'CHILDESCorpusReader', 'AlignedCorpusReader',
     'TimitTaggedCorpusReader', 'LinThesaurusCorpusReader',
-    'SemcorCorpusReader', 'FramenetCorpusReader', 'UdhrCorpusReader',
+    'SemcorCorpusReader', 'FramenetCorpusReader', 'HypergraphCorpusReader', 'UdhrCorpusReader',
     'BNCCorpusReader', 'SentiWordNetCorpusReader', 'SentiSynset',
     'TwitterCorpusReader', 'NKJPCorpusReader', 'CrubadanCorpusReader',
     'MTECorpusReader', 'ReviewsCorpusReader', 'OpinionLexiconCorpusReader',
